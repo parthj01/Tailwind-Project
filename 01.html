@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="container min-h-screen bg-zinc-800 text-white px-28 py-6 relative"
+    >
+      <nav
+        class="flex items-center outline outline-offset-2 outline-4 rounded-3xl p-5"
+      >
+        <img
+          class="w-16 h-16 cursor-pointer rounded-2xl hover:border-red-500 border-2"
+          src="./images/bird2logo.jpg"
+          alt="logo"
+        />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a
+              href="#"
+              class="px-2 text-xl hover:text-emerald-300 hover:underline underline-offset-8"
+              >Home</a
+            >
+          </li>
+          <li class="list-none inline-block px-5">
+            <a
+              href="#"
+              class="px-2 text-xl hover:text-emerald-300 hover:underline underline-offset-8"
+              >About</a
+            >
+          </li>
+          <li class="list-none inline-block px-5">
+            <a
+              href="#"
+              class="px-2 text-xl hover:text-emerald-300 hover:underline underline-offset-8"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button
+          class="bg-lime-500 rounded-2xl px-3 py-2 font-medium mr-5 hover:text-red-500"
+        >
+          Log In
+        </button>
+      </nav>
+
+      <div class="mt-48">
+        <h1 class="text-6xl font-bold leading-normal hover:text-rose-400">
+          Bird Shop <br />
+          Delivery in 5 minutes
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Quidem placeat voluptas quia voluptatum saepe! Quam quo quibusdam vel
+          sit modi?
+        </p>
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl px-3 py-5 font-medium text-black mr-4 hover:bg-green-500 hover:text-white"
+            >Order Now</a
+          >
+          <a href="#" class="hover:text-sky-400">Download App</a>
+          <img
+            src="./images/spongeBob.webp"
+            alt="SpongeBob"
+            class="w-full xl:w-1/3 xl:absolute bottom-0 right-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
